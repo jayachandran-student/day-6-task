@@ -1,0 +1,90 @@
+Question 1:
+Answer:
+
+
+class  Movie {
+    constructor(title, studio, rating) {
+        this.title = title;
+        this.studio = studio;
+        this.rating = rating;
+    }
+
+    displayInfo() {
+        console.log(`Movie Info`);
+        console.log(`----------`);
+        console.log(`Title: ${this.title}`);
+        console.log(`Studio: ${this.studio}`); 
+        console.log(`Rating: ${this.rating}`);
+    }
+}
+
+let movie1 = new Movie('Casino Royale', 'Eon Productions', 'PG­13');
+
+movie1.displayInfo();
+
+Output:
+
+Movie Info
+----------
+Title: Casino Royale
+Studio: Eon Productions
+Rating: PG­13
+
+
+
+
+Question: 3
+
+
+Answer
+
+class  Person {
+    constructor(name, age, contactdetails) {
+        this.name = name;
+        this.age = age;
+        this.contactdetails = contactdetails;
+    }
+
+    displayInfo() {
+        console.log(`Person Info`);
+        console.log(`----------`);
+        console.log(`Name: ${this.name}`);
+        console.log(`Age: ${this.age}`); 
+        console.log(`ContactDetails: ${this.contactdetails}`);
+    }
+}
+
+let person1 = new Person('Chandru', '27', '9988776655');
+
+person1.displayInfo();
+
+
+
+Output:
+
+Person Info
+----------
+Name: Chandru
+Age: 27
+ContactDetails: 9988776655
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
